@@ -1,17 +1,17 @@
 import React from 'react';
-import QuestionContainer from '../containers/QuestionContainer';
-import QuizContainer from '../containers/QuizContainer';
-import UserContainer from '../containers/UserContainer';
+import questionContainer from '../containers/questionContainer';
+import quizContainer from '../containers/quizContainer';
+import userContainer from '../containers/userContainer';
 
-const HomePage = () => {
+const homePage = () => {
   return (
     <div>
-      <h1>Quiz App</h1>
-      <QuestionContainer />
-      <QuizContainer />
-      <UserContainer />
+      <h1>NZ FUN TRIVIA APP</h1>
+      <questionContainer />
+      <quizContainer />
+      <userContainer />
     </div>
   );
 };
 
-export default HomePage;
+export default homePage;
